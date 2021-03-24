@@ -342,3 +342,13 @@ pricing
     background-color: var(--siva);
     color: var(--bela);
 }
+/**********************
+footer
+**********************/
+footer {
+    background-color: var(--black);
+    color: var(--bela);
+}
+footer i, footer h2 {
+    color: var(--orange);
+}
