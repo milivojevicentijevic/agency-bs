@@ -230,3 +230,42 @@ about
     font-weight: 900; 
     content: "\f0a4";
 }   
+/**********************
+projects
+**********************/
+#projects .col-md-3 {
+    padding: 0;
+}
+#projects .imgContainer {
+    position: relative;
+    background: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7));
+    overflow: hidden;
+}
+#projects .imgContainer img {
+    transition: var(--transition);
+}
+#projects .imgContainer img:hover {
+    opacity: .7;
+    cursor: pointer;
+}
+#projects .imgIcons {
+    position: absolute;
+    bottom: -10rem;
+    background: linear-gradient(rgba(255,255,255,.7),rgba(255,255,255,.7));
+    width: 100%;
+    transition-duration: 1s;
+    text-align: center;
+    padding: 20px 0;
+}
+#projects .imgIcons i {
+    color: var(--orange);
+    font-size: 35px;
+    margin: 0 10px;
+    transition: var(--transition);
+}
+#projects .imgIcons i:hover {
+    color: var(--siva);
+}
+#projects .imgContainer:hover .imgIcons {
+    bottom: 0;
+}
