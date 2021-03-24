@@ -233,6 +233,9 @@ about
 /**********************
 projects
 **********************/
+#projects {
+    padding-top: 50px;
+}
 #projects .col-md-3 {
     padding: 0;
 }
@@ -268,4 +271,29 @@ projects
 }
 #projects .imgContainer:hover .imgIcons {
     bottom: 0;
+}
+/**********************
+people
+**********************/
+#people .row:nth-child(2) {
+    margin-top: 100px;
+}
+#people img {
+    width: 80%;
+    border-radius: 50%;
+    margin: -100px auto 0;
+}
+#people hr {
+    background-color: var(--orange);
+    border: none;
+    height: 1px;
+}
+#people i {
+    color: var(--orange);
+    font-size: 30px;
+    margin: 0 10px;
+    transition: var(--transition);
+}
+#people i:hover {
+    color: var(--siva);
 }
