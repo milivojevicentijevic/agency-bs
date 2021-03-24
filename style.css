@@ -298,6 +298,23 @@ people
     color: var(--siva);
 }
 /**********************
+skills
+**********************/
+#skills {
+    background-image: linear-gradient( rgba(255, 138, 91,.7),rgba(255, 138, 91,.7)), url(img/progress.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 90%);
+    padding: 100px 0;
+}
+#skills .progress {
+    height: 5px;
+}
+.progress-bar {
+    background-color: var(--black);
+}
+/**********************
 pricing
 **********************/
 #pricing .card {
